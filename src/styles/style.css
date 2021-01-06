@@ -58,12 +58,8 @@ header::before {
   opacity: 10%;
 }
 
-.header-section {
-  position: relative;
-  height: 525px;
-}
-
 .titel {
+  position: relative;
   height: 525px;
 }
 
@@ -100,4 +96,27 @@ header::before {
   margin-top: 24px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+/*Секция с видео*/
+
+.video-titel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.navigation-section {
+  background-color: var(--main-dark);
 }
