@@ -12,6 +12,7 @@
 }
 
 body {
+  margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.6em;
@@ -24,6 +25,8 @@ h3,
 h4,
 h5,
 h6 {
+  margin: 0;
+  padding: 0;
   font-family: 'Neucha', cursive;
   line-height: 1.2em;
 }
@@ -42,7 +45,59 @@ h3 {
 
 section {
   max-width: 1110px;
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
   padding: 100px 0;
+}
+
+header::before {
+  content: url('../images/background.png');
+  /*background-image: url('../images/background.png');*/
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 10%;
+}
+
+.header-section {
+  position: relative;
+  height: 525px;
+}
+
+.titel {
+  height: 525px;
+}
+
+.titel h1 {
+  color: var(--main);
+}
+
+.titel-img {
+  position: absolute;
+  top: 55px;
+	right: -270px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description-col-left {
+  width: 50%;
+  margin-right: 15px;
+}
+
+.description-col-right {
+  width: 50%;
+  margin-left: 15px;
+}
+
+.description-col-right a {
+  display: inline-flex;
+  background-color: var(--main);
+  color: var(--white);
+  padding: 12px 24px;
+  margin-top: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
