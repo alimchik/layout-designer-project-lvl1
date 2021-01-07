@@ -28,6 +28,7 @@ h6 {
   margin: 0;
   padding: 0;
   font-family: 'Neucha', cursive;
+  font-weight: normal;
   line-height: 1.2em;
 }
 
@@ -117,6 +118,8 @@ iframe {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
+/*Секция навигаций*/
+
 .navigation-section {
   background-color: var(--main-dark);
 }
@@ -166,3 +169,50 @@ iframe {
   color: var(--main);
 }
 
+/*Секция Эфект икеа*/
+.background::before {
+  content: url('../images/background.png');
+  /*background-image: url('../images/background.png');*/
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 10%;
+}
+
+.wrap {
+  display: flex;
+}
+
+i.img {
+  vertical-align: top;
+}
+
+.cognitive-distortion {
+  margin: 0;
+  font-family: "Neucha";
+  font-size: 24px;
+  color: var(--translucent-dark);
+}
+
+.text {
+  font-family: "Neucha";
+  font-size: 34px;
+  color: var(--dark);
+  line-height: 40.8px;
+}
+
+.sub-titel {
+  background-color: var(--brown);
+  vertical-align: middle;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+}
+
+.sub-titel h4 {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--white);
+}
