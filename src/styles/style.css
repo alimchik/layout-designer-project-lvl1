@@ -11,6 +11,34 @@
   --blue: #1085c5;
 }
 
+.background-brown {
+  background-color: var(--brown);
+}
+
+.background-white {
+  background-color: var(--white);
+}
+
+.translucent-white-text {
+  color: var(--translucent-white);
+}
+
+.white-text {
+  color: var(--white);
+}
+
+.dark-text {
+  color: var(--dark)
+}
+
+.brown-text {
+  color: var(--brown) !important;
+}
+
+.translucent-dark-text {
+  color: var(--translucent-dark);
+}
+
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -191,18 +219,15 @@ i.img {
   margin: 0;
   font-family: "Neucha";
   font-size: 24px;
-  color: var(--translucent-dark);
 }
 
 .text {
   font-family: "Neucha";
   font-size: 34px;
-  color: var(--dark);
   line-height: 40.8px;
 }
 
 .sub-titel {
-  background-color: var(--brown);
   vertical-align: middle;
   margin-top: 100px;
   margin-bottom: 20px;
@@ -216,3 +241,14 @@ i.img {
   line-height: 17px;
   color: var(--white);
 }
+
+/*Секция преждевременная оптимизация*/
+.background--brown::before {
+  content: url('../images/background.png');
+  /*background-image: url('../images/background.png');*/
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  opacity: 10%;
+}
+
