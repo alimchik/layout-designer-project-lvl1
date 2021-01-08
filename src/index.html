@@ -11,17 +11,15 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
+    <header class="background-light-coloured">
         <section class="header-section">
             <div class="titel">
                 <h1>
-                    Когнетивные <br> 
+                    Когнитивные <br> 
                     искажения <br>
                     в программировании
                 </h1>
-                <div class="titel-img">
-                    <img src="./images/main.png" alt=""/>
-                </div>
+                <img class="titel-img" src="./images/main.png" alt=""/>
             </div>
             <div class="description">
                 <div class="description-col-left">
@@ -36,13 +34,14 @@
                     <p>
                         Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.
                     </p>
-                    <a href="#">
+                    <a class="btn" href="#">
                         Подробнее
                     </a>
                 </div>
             </div>
         </section>
     </header>
+     
     <main>
         <section class="video-section">
             <div class="video-titel">
@@ -103,7 +102,7 @@
             </section>
         </div>
 
-        <div class="background">
+        <div class="background background-light-coloured">
             <section id="ikea-effect">
                 <div class="wrap">
                     <div class="img">
@@ -166,7 +165,7 @@
 
             </section>
         </div>
-        <div class="background">
+        <div class="background background-light-coloured">
             <section id="distortion-of-novelty">
                 <div class="wrap">
                     <div class="img">
@@ -229,7 +228,7 @@
 
             </section>
         </div>
-        <div class="background">
+        <div class="background background-light-coloured">
             <section id="errors-in-planning">
                 <div class="wrap">
                     <div class="img">
@@ -264,5 +263,35 @@
             </section>
         </div>
     </main>
+    <footer>
+        <section>
+            <div class="send">
+                <div class="send-titel">
+                    <h3 class="white-text">
+                        Хотите узнать больше?<br>Подпишитесь на обновления
+                    </h3>
+                </div>
+                <div class="send-form">
+                    <p class="email white-text">
+                        Электронная почта
+                    </p>
+                    <div class="input-email">
+                        <input type="text" placeholder="Ваша электронная почта">
+                        <button></button>
+                    </div>
+                    <p class="regulations white-text">
+                        Подписываясь, вы принимаете <a class="regulations-link white-text" href="#">правила сервиса</a>
+                    </p>
+                </div>
+            </div>
+            <div class="about">
+                <div>
+                    <p>© 2020 Алимов Артём</p>
+                </div>
+                <p>По материалам статьи Yash Ranadive <a class="link" href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">Cognitive Biases in Programming</a></p>
+                <p><a class="link" href="https://ru.hexlet.io/my">Курсы программирования Hexlet</a></p>
+            </div>
+        </section>
+    </footer> 
 </body>
 </html>
