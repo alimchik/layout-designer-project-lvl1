@@ -108,8 +108,8 @@ header::before {
 
 .titel-img {
   position: absolute;
-  /*top: 55px;
-	right: -270px;*/
+  top: 55px;
+	right: -270px;
 }
 
 .description {
