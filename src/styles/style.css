@@ -141,6 +141,11 @@ header::before {
 
 /*Секция с видео*/
 
+.video-section {
+  box-sizing: border-box;
+  height: 814px;
+}
+
 .video-titel {
   display: flex;
   flex-direction: column;
@@ -161,6 +166,7 @@ iframe {
 /*Секция навигаций*/
 
 .navigation-section {
+  padding-top: 100px;
   background-color: var(--main-dark);
 }
 
