@@ -147,12 +147,12 @@ header::before {
 }
 
 .video-titel {
- /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;*/
   text-align: center;
   margin-bottom: 30px;
+}
+
+.video-titel p {
+  margin-top: 27px;
 }
 
 .video {
