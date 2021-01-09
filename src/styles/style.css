@@ -167,8 +167,11 @@ iframe {
 /*Секция навигаций*/
 
 .navigation-section {
-  padding-top: 100px;
   background-color: var(--main-dark);
+}
+
+#navigation {
+  padding-top: 200px;
 }
 
 .row {
