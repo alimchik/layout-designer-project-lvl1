@@ -35,6 +35,11 @@
   color: var(--dark)
 }
 
+.main-text {
+  color: var(--main)
+}
+
+
 .brown-text {
   color: var(--brown) !important;
 }
@@ -94,16 +99,12 @@ header::before {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 98%;
+  height: 100%;
   opacity: 10%;
 }
 
 .titel {
   height: 525px;
-}
-
-.titel h1 {
-  color: var(--main);
 }
 
 .titel-img {
@@ -113,6 +114,7 @@ header::before {
 }
 
 .description {
+  margin-top: 189px;
   display: flex;
   justify-content: space-between;
 }
