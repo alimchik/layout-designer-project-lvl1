@@ -81,7 +81,7 @@ h3 {
   font-size: 34px;
 }
 
-section {
+.conteiner {
   max-width: 1110px;
   margin: 0 auto;
   padding: 100px 0;
@@ -179,13 +179,6 @@ iframe {
   box-sizing: border-box;
   background-color: var(--main-dark);
 }
-
-.conteiner {
-  max-width: 1110px;
-  margin: 0 auto;
-  padding: 100px 0;
-}
-
 
 .row {
   display: flex;
@@ -290,6 +283,10 @@ i.img {
 }
 
 /*Подвал*/
+
+footer {
+  height: 581px;
+}
 
 .send {
   display: flex;
