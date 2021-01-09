@@ -175,6 +175,8 @@ iframe {
   margin: 0;
   padding: 0;
   padding-top: 100px;
+  height: 991px;
+  box-sizing: border-box;
   background-color: var(--main-dark);
 }
 
