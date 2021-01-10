@@ -272,6 +272,11 @@ i.img {
   color: var(--white);
 }
 
+.description-section {
+  display: flex;
+  justify-content: space-between;
+}
+
 /*Секция преждевременная оптимизация*/
 .background--brown::before {
   content: url('../images/background.png');
