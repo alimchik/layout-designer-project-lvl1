@@ -226,6 +226,11 @@ iframe {
 }
 
 /*Секция Эфект икеа*/
+
+#ikea-effect {
+  height: 905px;
+}
+
 .background::before {
   content: "";
   background-image: url('../images/background.png');
