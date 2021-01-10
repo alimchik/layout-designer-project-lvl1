@@ -292,14 +292,30 @@ iframe {
 }
 
 /*Секция преждевременная оптимизация*/
-.background--brown::before {
-  content: url('../images/background.png');
-  /*background-image: url('../images/background.png');*/
-  position: absolute;
-  background-repeat: no-repeat;
-  background-size: cover; 
-  opacity: 10%;
+#premature-optimization {
+  height: 855px;
 }
+
+#premature-optimization {
+  height: 855px;
+}
+
+#distortion-of-novelty {
+  height: 880px;
+}
+
+#hyperbolic-depreciation {
+  height: 937px;
+}
+
+#errors-in-planning {
+  height: 919px;
+}
+
+#premature-optimization {
+  height: 855px;
+}
+
 
 /*Подвал*/
 
