@@ -133,7 +133,7 @@ header::before {
   display: inline-flex;
   background-color: var(--main);
   color: var(--white);
-  /*padding: 12px 27px;*/
+  font-weight: bold;
   padding: 12px 27px 12px 24px;
   margin-top: 24px;
   text-decoration: none;
