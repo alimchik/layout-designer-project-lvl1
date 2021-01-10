@@ -134,7 +134,7 @@ header::before {
   background-color: var(--main);
   color: var(--white);
   /*padding: 12px 27px;*/
-  padding: 12px 26px 12px 24px;
+  padding: 12px 27px 12px 24px;
   margin-top: 24px;
   text-decoration: none;
   text-transform: uppercase;
@@ -294,7 +294,7 @@ iframe {
 
 /*Секция преждевременная оптимизация*/
 #premature-optimization {
-  min-height: 855px
+  min-height: 835px
 }
 
 #distortion-of-novelty {
