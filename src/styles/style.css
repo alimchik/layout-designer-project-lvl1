@@ -294,7 +294,7 @@ iframe {
 
 /*Секция преждевременная оптимизация*/
 #premature-optimization {
-  height: 100%
+  min-height: 855px
 }
 
 #distortion-of-novelty {
