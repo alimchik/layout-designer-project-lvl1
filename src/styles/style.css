@@ -294,29 +294,20 @@ iframe {
 
 /*Секция преждевременная оптимизация*/
 #premature-optimization {
-  height: 855px;
+  height: 100%
 }
-/*
-#premature-optimization {
-  height: 100%;
-}*/
 
 #distortion-of-novelty {
   height: 880px;
 }
 
 #hyperbolic-depreciation {
-  height: 935px;
+  height: 933px;
 }
 
 #errors-in-planning {
-  height: 914px;
+  height: 913px;
 }
-
-#premature-optimization {
-  height: 855px;
-}
-
 
 /*Подвал*/
 
