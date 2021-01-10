@@ -134,7 +134,7 @@ header::before {
   background-color: var(--main);
   color: var(--white);
   /*padding: 12px 27px;*/
-  padding: 11px 23px 12px 24px;
+  padding: 12px 24px 12px 24px;
   margin-top: 24px;
   text-decoration: none;
   text-transform: uppercase;
@@ -298,7 +298,7 @@ iframe {
 }
 
 #premature-optimization {
-  height: 100vh;
+  height: 100%;
 }
 
 #distortion-of-novelty {
@@ -310,7 +310,7 @@ iframe {
 }
 
 #errors-in-planning {
-  height: 919px;
+  height: 915px;
 }
 
 #premature-optimization {
